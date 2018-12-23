@@ -69,8 +69,10 @@ console.log("buffer2 content: " + buffer2.toString());
 //缓存区长度
 //buf.length;
 
+/*
 var buffer = Buffer.from('www.runoob.com');
 console.log("buffer length: " + buffer.length);
+*/
 
 
 
