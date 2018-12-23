@@ -74,6 +74,9 @@ var buffer = Buffer.from('www.runoob.com');
 console.log("buffer length: " + buffer.length);
 */
 
-
+var Hello = require('./hello');
+hello = new Hello();
+hello.setName('BYVoid');
+hello.sayHello();
 
 
