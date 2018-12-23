@@ -42,5 +42,36 @@ if(result < 0){
 }
 */
 
+
+/*
 //拷贝缓冲区
 //buf.copy（targetBuffer[,targetStart[,sourceStart[,sourceEnd]]]）
+var buf1 = Buffer.from('abcdefghijkl');
+var buf2 = Buffer.from('RUNOOB');
+
+//将buf2插入到buf1指定位置
+
+buf2.copy(buf1, 2);
+
+console.log(buf1.toString());
+*/
+
+
+//缓冲区裁剪
+//buf.slice([start[,end]])
+
+/*var buffer1 = Buffer.from('runoob');
+var buffer2 = buffer1.slice(0, 2);
+console.log("buffer2 content: " + buffer2.toString());
+*/
+
+
+//缓存区长度
+//buf.length;
+
+var buffer = Buffer.from('www.runoob.com');
+console.log("buffer length: " + buffer.length);
+
+
+
+
